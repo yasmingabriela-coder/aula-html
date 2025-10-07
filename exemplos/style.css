@@ -1,0 +1,55 @@
+/* seletor universal */
+* {
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* seletor por elemento */
+body {
+    background-color: black;
+    color: white;
+
+}
+
+label {
+ font-size: 18px;
+}
+
+/* seletor por classe */
+.tiulo {
+ font-size: 24px;
+ color: blueviolet;
+ text-align: center;
+}
+/* seletor por ID */
+#titulo  {
+font-size: 32px;
+color: yellow;
+text-align: end;
+}
+
+
+/* seletor por atributo */
+input[taype=text ]{
+    border:solid 1px #ccc;
+    border-radius: 10px;
+    background-color: black;
+    color:white
+}
+
+/* Seletor descendente:*/
+div label {
+    color:royalblue;
+}
+
+/* seletor de pseudo-classe*/
+a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer
+
+}
+a:hover{
+ text-decoration: :underline;
+}
+
+/* propiedades principais*/
+/* cores e dunfpos*

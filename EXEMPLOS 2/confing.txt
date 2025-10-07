@@ -1,0 +1,4 @@
+git confing--global user.name yasmingabriela-coder
+git confing--global user.email yg545041@gmail.com
+
+abriel o terminal: crtl+'
